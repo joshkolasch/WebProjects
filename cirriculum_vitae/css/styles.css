@@ -2,6 +2,12 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.contact-info{
+    margin-top:10px;
+    font-size: 15px;
+}
+
 .name{
     text-align:right;
     font-size: 100px;
@@ -10,6 +16,7 @@
 .job-title{
     text-align:right;
     font-size: 40px;
+    margin-top: 20px;
 }
 
 .job-title-secondary{
@@ -41,6 +48,12 @@
     min-height: 350px;
 }
 
+.links-heading{
+    text-align: center;
+    font-size: 30px;
+    color: #f1f1f1;
+}
+
 .about-me-text{
     font-size: 20px;
     color: #f1f1f1;
@@ -49,6 +62,25 @@
     margin-right: 100px;
     
 }
+
+.work-date{
+    font-size: 20px;
+    color: #f1f1f1;
+    margin-top: 10px;
+}
+
+.work-header{
+    font-size: 20px;
+    color: #f1f1f1;
+    margin-top: 10px;
+}
+
+.work-text{
+    font-size: 15px;
+    color: #f1f1f1;
+    margin-top: 10px;
+}
+
 .dropbtn {
     background-color: #4CAF50;
     color: white;

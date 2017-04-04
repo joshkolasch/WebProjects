@@ -1,1 +1,96 @@
-Work Experience
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Work Experience</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="javascript/functions.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <!--Banner-->
+        <div class="row banner">
+            <!--Left Half of banner-->
+            <div class="col-md-6">
+                <div class="row" src><img src="pics/joshPic.jpg" class="img-responsive" /></div>
+                <div class="row contact-info"><b>Phone: (509) 492-8477</b></div>
+                <div class="row contact-info"><b>E-mail: </b><a>joshua.kolasch@gmail.com</a></div>
+            </div>
+            <!--Right Half of banner-->
+            <div class="col-md-6 banner-right-half">
+                <div class="row name">Josh Kolasch</div>
+                <div class="row job-title">App Wizard in Training</div>
+                <div class="row job-title-secondary">(Sorcerer's App-prentice)</div>
+            </div>
+        </div>
+
+        <!--Navigation bar-->
+        <div class="row nav-bar">
+            <div class="dropdown col-md-3">
+                <input type="button" onclick="location.href = 'WorkExperience.html';" value="Work Experience" class="dropbtn" />
+            </div>
+            <div class="dropdown col-md-3">
+                <button  class="dropbtn">Education</button>
+            </div>
+            <div class="dropdown col-md-3">
+                <button  class="dropbtn">Projects</button>
+            </div>
+            <div class="dropdown col-md-3">
+                <button onclick="myFunction()" class="dropbtn">More</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#home">Relevant Technologies</a>
+                    <a href="josh_kolasch.html">About Me</a>
+                    <!--TODO (1) Create a CV and replace this resume link with a CV link
+                        This is currently a placeholder-->
+                    <a href="downloads/Josh_Kolasch_Resume.pdf">View As PDF</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Page descriptor bar-->
+        <div class="row description-bar">
+            <div class="col-md-4 col-centered description-bar-content">Work Experience</div>
+        </div>
+
+        <!--Text content-->
+        <!--TODO (2) Make this bulk-content dynamic so that it changes it's content based on which nav-bar button is pressed.
+            Rather than having it go to a completely different web page-->
+        <div class="row bulk-content">
+            <div class="col-md-2 work-date">2016</div>
+            <div class="col-md-10">
+                <p class="work-header">
+                    <b>Undergraduate Researcher, </b><em>Embedded and Pervasive Systems Lab, </em>Pullman, WA<br />
+                </p>
+                <p class="work-text">
+                    Responsibilities: Implemented new features on a health monitoring app including the addition of a machine learning component. Performed data collection for measuring the improvement of a module for approximating string comparisons.
+                </p>
+            </div>
+
+            <div class="col-md-2 work-date">2016</div>
+            <div class="col-md-10">
+                <p class="work-header">
+                    <b>Computer Science 121 Teaching Assistant, </b><em>Washington State University, </em>Pullman, WA<br />
+                </p>
+                <p class="work-text">
+                    Responsibilities: Taught lab sessions, graded exams and assignments, elaborated on key concepts covered in lecture.
+                    Made lab fun and comfortable by creating individualized lesson plans and dressing up.
+                </p>
+            </div>
+
+            <div class="col-md-2 work-date">2012-2013</div>
+            <div class="col-md-10">
+                <p class="work-header">
+                    <b>Electrical Apprentice, </b><em>Advanced Protection Services, </em>Pasco, WA<br />
+                </p>
+                <p class="work-text">
+                    Responsibilities: Interacted with all construction disciplines in an effort to provide customer oriented service.
+                    Installed and maintained camera, fire, and security systems.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

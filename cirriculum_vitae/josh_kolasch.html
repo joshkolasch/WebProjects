@@ -11,12 +11,12 @@
     <div class="container">
 
         <!--Banner-->
-        <div class="row">
+        <div class="row banner">
             <!--Left Half of banner-->
             <div class="col-md-6">
-                <div class="row" src><img src="pics/joshPic.jpg" /></div>
-                <div class="row">Phone: (509) 492-8477</div>
-                <div class="row">E-mail: <a>joshua.kolasch@gmail.com</a></div>
+                <div class="row" src><img src="pics/joshPic.jpg" class="img-responsive" /></div>
+                <div class="row contact-info"><b>Phone: (509) 492-8477</b></div>
+                <div class="row contact-info"><b>E-mail: </b><a>joshua.kolasch@gmail.com</a></div>
             </div>
             <!--Right Half of banner-->
             <div class="col-md-6 banner-right-half">
@@ -29,7 +29,7 @@
         <!--Navigation bar-->
         <div class="row nav-bar">
             <div class="dropdown col-md-3">
-                <button onclick="myFunction()" class="dropbtn">Work Experience</button>
+                <input type="button" onclick="location.href = 'WorkExperience.html';" value="Work Experience" class="dropbtn" />
             </div>
             <div class="dropdown col-md-3">
                 <button onclick="myFunction()" class="dropbtn">Education</button>
@@ -41,14 +41,39 @@
                 <button onclick="myFunction()" class="dropbtn">More</button>
                 <div id="myDropdown" class="dropdown-content">
                     <a href="#home">Relevant Technologies</a>
-                    <a href="#about">About Me</a>
-                    <a href="#contact">Contact</a>
-                    <a href="#contact">View As PDF</a>
+                    <a href="josh_kolasch.html">About Me</a>
+                    <!--TODO (1) Create a CV and replace this resume link with a CV link
+                        This is currently a placeholder-->
+                    <a href="downloads/Josh_Kolasch_Resume.pdf">View As PDF</a>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12 stuff">This is where the stuff should go</div>
+
+        <!--Page descriptor bar-->
+        <div class="row description-bar">
+            <div class="col-md-4 col-centered description-bar-content">About Me</div>
+        </div>
+
+        <!--Text content-->
+        <!--TODO (2) Make this bulk-content dynamic so that it changes it's content based on which nav-bar button is pressed.
+            Rather than having it go to a completely different web page-->
+        <div class="row bulk-content">
+            <div class="col-md-12">
+                <p class="about-me-text">
+                    Born and raised in Pasco, Washington. I graduated from Pasco High and ranked nationally in computer hardware competitions.
+                    I put myself through college and spent nearly half of that time tutoring other students in Math and Computer Science.
+                    I love playing Ultimate Frisbee and going rock climbing in my spare time.
+                    I strive to be a great computer scientist and when I'm not doing anything I like to develop my own custom phone apps.
+                    I owe a lot to my friends and family who have helped me in their own special way and plan to give back to those who have a similar path ahead.
+                </p>
+            </div>
+            <div class="col-md-12 links-heading">Check out my links</div>
+            <div class="col-md-12 about-me-text">
+                <p>
+                    My Github accout: <a href="https://github.com/joshkolasch">github.com/joshkolasch</a> <br/>
+                    My LinkedIn profile: <a href="https://www.linkedin.com/in/josh-kolasch/">linkedin.com/in/josh-kolasch</a>
+                </p>
+            </div>
         </div>
     </div>
 </body>
