@@ -1,3 +1,7 @@
+.banner{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .name{
     text-align:right;
     font-size: 100px;
@@ -17,9 +21,33 @@
     background-color: #4CAF50;
 }
 
-.stuff{
-    text-align:center;
+.description-bar{
+    background-color: #555;
+}
+.description-bar-content{
+    text-align: center;
     font-size: 30px;
+    color: #f1f1f1;
+    background-color: red;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.bulk-content{
+    background-color: #555;
+    min-height: 350px;
+}
+
+.about-me-text{
+    font-size: 20px;
+    color: #f1f1f1;
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
 }
 .dropbtn {
     background-color: #4CAF50;
